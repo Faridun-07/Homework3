@@ -291,6 +291,45 @@ header{
     display: flex;
     gap: 50px;
 }
+.section6{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.text4{
+    text-align: center;
+    width: 400px;
+}
+.back5{
+    background-color: #88C9FD;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    padding: 50px 250px;
+    border-radius: 10px;
+}
+.but4{
+    color: white;
+    background-color: #262626;
+    padding: 15px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+.posit{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+.posit2{
+    position: absolute;
+    left: 720px;
+    top: 70px;
+}
 
 
 
@@ -431,4 +470,24 @@ header{
     .flex8{
         flex-direction: column;
     }
+    .section6{
+        padding:50px 0px;
+    }
+    
+.back5{
+    width: 100%;
+    padding: 50px;
+    border-radius: 0px;
+}
+.posit2{
+    display: none;
+}
+.posit{
+    top: 50px;
+    left: -40px;
+    width: 100px;
+}
+.text4{
+width: 100%;
+}
 }
