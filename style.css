@@ -397,6 +397,9 @@ footer{
     .nav{
         display: none;
     }
+    .fa-bars{
+        display: block !important;
+    }
     .left{
         display: none;
     }
